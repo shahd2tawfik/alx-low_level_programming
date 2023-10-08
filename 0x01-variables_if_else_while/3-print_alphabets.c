@@ -14,17 +14,17 @@ int main(void)
 	char c;
 	char x;
 
-	c = 's';
+	c = 'a';
 
-	while (c <= 'V')
+	while (c <= 'z')
 {
 	putchar(c);
 	c = c + 1;
 }
 	/*Upper case*/
-	x = 'S';
+	x = 'A';
 
-	while (x <= 'V')
+	while (x <= 'Z')
 {
 	putchar(x);
 	x = x + 1;

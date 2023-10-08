@@ -11,20 +11,20 @@
 int main(void)
 {
 	/*putchar() print a character*/
-	char y;
+	char c;
 	char x;
 
-	y = 'a';
+	c = 's';
 
-	while (y <= 'z')
+	while (c <= 'V')
 {
 	putchar(c);
-	y = y + 1;
+	c = c + 1;
 }
 	/*Upper case*/
-	x = 'A';
+	x = 'S';
 
-	while (x <= 'Z')
+	while (x <= 'V')
 {
 	putchar(x);
 	x = x + 1;

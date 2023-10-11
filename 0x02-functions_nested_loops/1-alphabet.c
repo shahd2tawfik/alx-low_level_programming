@@ -2,24 +2,20 @@
 #include "main.h"
 
 /**
- * main - this is the master function
+ * print_alphabet - this is the master function
  *
- * Description: write alphabet in lower case
+ * Description: enable us to write a standard output
  *
  * Return: Always 0 (success)
- */
+*/
 
 void print_alphabet(void)
 {
-int c;
+	int a;
 
-c = 'a';
-
-while (c <= 'z')
+	for (a = 'a'; a <= 'z'; a++)
 {
-_putchar(c);
-c = c + 1;
-};
-_putchar('\n');
-return (0);
+	_putchar(a);
+}
+	_putchar('\n');
 }

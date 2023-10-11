@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - this is the master function
+ * print_alphabet - a function to operate
  *
  * Description: enable us to write alphabet 10 times
  *
@@ -20,7 +20,7 @@ for (c = 'a' ; c <= 'z' ; c++)
 {
 _putchar(c);
 }
-}
 _putchar('\n');
 i++;
+}
 }

@@ -17,6 +17,6 @@ else
 {
 n = n % 10;
 }
-_putchar(a + '0');
-return (a);
+_putchar(n + '0');
+return (n);
 }

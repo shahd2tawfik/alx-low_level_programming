@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - a function to operate
+ * print_alphabet_x10 - a function to operate
  *
  * Description: enable us to write alphabet 10 times
  *

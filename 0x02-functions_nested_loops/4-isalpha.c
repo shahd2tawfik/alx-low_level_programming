@@ -2,18 +2,16 @@
 #include "main.h"
 
 /**
- * _isalpha - this is the master function
+ * _isalpha - function to check if alphabet or not
  *
- * @c: enable us to write a standard output
+ * @c: character to check
  *
- * Return: Always 0 (success)
+ * Return: if alphabet return 1 and 0 if not
  */
 
 int _isalpha(int c)
 {
-if (c >= 'a' && c <= 'z')
-|| (c >= 'A' && c <= 'Z')
-
+if (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
 {
 return (1);
 }

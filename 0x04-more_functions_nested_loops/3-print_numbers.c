@@ -2,17 +2,20 @@
 #include "main.h"
 
 /**
- * print_numbers - checks for checks for a digit (0 through 9).
+ * print_numbers - check if the input is upper of not
  *
- * Return: Always 0.
- */
+ * @i: this function print the digits
+ *
+ * Return: 0 if the input is upper and 1 if it's not
+*/
+
 void print_numbers(void)
 {
- int c;
+	int i;
 
- for (c = 48; c < 58; c++)
- {
- _putchar(c);
- }
- _putchar('\n');
+	for (i = 0; i <= 9 ; i++)
+{
+	_putchar(i + '0');
+}
+	_putchar('\n');
 }

@@ -3,22 +3,19 @@
 
 /**
  * print_line - draws a straight line in the terminal
- * @n: number of times the character _ should be printed
- */
+ *
+ * @n: check the inputs
+ *
+ * Return: 0 if the input is upper and 1 if it's not
+*/
+
 void print_line(int n)
 {
- if (n <= 0)
- {
- _putchar('\n');
- } else
- {
- int i;
+	int i;
 
- for (i = 1; i <= n; i++)
- {
- _putchar('_');
- }
- _putchar('\n');
- }
-
+	for (i = 0; i < n; i++)
+{
+	_putchar(95);
+}
+	_putchar('\n');
 }

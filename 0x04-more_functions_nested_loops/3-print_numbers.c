@@ -4,7 +4,7 @@
 /**
  * print_numbers - check if the input is upper of not
  *
- * @i: this function print the digits
+ * Decription: this function print the digits
  *
  * Return: 0 if the input is upper and 1 if it's not
 */

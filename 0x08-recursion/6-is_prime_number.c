@@ -4,6 +4,7 @@
  * is_prime_number - Check if a number is prime number or not.
  *
  * @n: Number to ckeck.
+ * @i: number to start from
  *
  * Return: 1 if n is prime number 0 if not.
  */
